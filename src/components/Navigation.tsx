@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import ThemeToggle from './ThemeToggle';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +44,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-tech-darker/90 backdrop-blur-sm border-b border-slate-200 dark:border-slate-800/50 transition-colors duration-300">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-tech-darker/90 backdrop-blur-sm border-b border-slate-800/50">
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -59,29 +58,29 @@ const Navigation = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1">
-            {navItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                  activeSection === item.id
-                    ? 'bg-gradient-to-r from-tech-primary to-tech-purple text-white'
-                    : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800'
-                }`}
-              >
-                {item.label}
-              </button>
-            ))}
-            <ThemeToggle />
+          <div className="hidden md:block">
+            <div className="flex items-center space-x-1">
+              {navItems.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                    activeSection === item.id
+                      ? 'bg-gradient-to-r from-tech-primary to-tech-purple text-white'
+                      : 'text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  {item.label}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center space-x-2">
-            <ThemeToggle />
+          <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white p-2"
+              className="text-slate-300 hover:text-white p-2"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -90,7 +89,7 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden bg-white/95 dark:bg-tech-darker/95 backdrop-blur-sm border-t border-slate-200 dark:border-slate-800/50">
+          <div className="md:hidden bg-tech-darker/95 backdrop-blur-sm border-t border-slate-800/50">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
                 <button
@@ -99,7 +98,7 @@ const Navigation = () => {
                   className={`block w-full text-left px-3 py-2 rounded-lg text-base font-medium transition-all duration-300 ${
                     activeSection === item.id
                       ? 'bg-gradient-to-r from-tech-primary to-tech-purple text-white'
-                      : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800'
+                      : 'text-slate-300 hover:text-white hover:bg-slate-800'
                   }`}
                 >
                   {item.label}
