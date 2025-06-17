@@ -81,7 +81,9 @@ const ProjectsSection = () => {
     { id: 'all', label: 'Tous les projets' },
     { id: 'mobile', label: 'Mobile' },
     { id: 'web', label: 'Web' },
-    { id: 'desktop', label: 'Desktop' }
+    { id: 'desktop', label: 'Desktop' },
+    { id: 'Deep learning', label: 'Deep learning' },
+    { id: 'Network and System administration', label: 'Network and System administration' }
   ];
 
   const filteredProjects = activeFilter === 'all' 
