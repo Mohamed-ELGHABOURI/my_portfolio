@@ -5,10 +5,10 @@ import { Calendar, MapPin, Award, TrendingUp } from 'lucide-react';
 const ExperienceSection = () => {
   const experiences = [
     {
-  title: "Automatisation IA pour Startups",
+  title: "Automatisation et IA pour Startups",
   company: "AHDigital Automation",
-  location: "Casablanca, Maroc",
-  period: "Juin - Juillet 2025",
+  location: "Agadir, Maroc",
+  period: "Juillet - Août 2025",
   type: "Stage",
   description: "Développement d’agents IA pour automatiser les processus métier des startups",
   technologies: ["Python", "LangChain", "Make", "n8n", "GPT-4", "API REST"],
