@@ -5,6 +5,23 @@ import { Calendar, MapPin, Award, TrendingUp } from 'lucide-react';
 const ExperienceSection = () => {
   const experiences = [
     {
+  title: "Automatisation IA pour Startups",
+  company: "AHDigital Automation",
+  location: "Casablanca, Maroc",
+  period: "Juin - Juillet 2025",
+  type: "Stage",
+  description: "Développement d’agents IA pour automatiser les processus métier des startups",
+  technologies: ["Python", "LangChain", "Make", "n8n", "GPT-4", "API REST"],
+  achievements: [
+    "Création d'agents conversationnels IA pour la gestion client",
+    "Mise en place de workflows automatisés (facturation, CRM, emailing)",
+    "Intégration d'APIs tierces pour des services SaaS",
+    "Déploiement et test sur cas réels avec des startups locales"
+  ],
+  badge: "AI Automation",
+  color: "from-purple-500 to-indigo-500"
+},
+    {
       title: "Stage AI & Cyber-Security",
       company: "3D Smart Factory",
       location: "Casablanca, Maroc",
@@ -54,24 +71,8 @@ const ExperienceSection = () => {
       ],
       badge: "Web Development",
       color: "from-green-500 to-teal-500"
-    },
-    {
-  title: "Automatisation IA pour Startups",
-  company: "AHDigital Automation",
-  location: "Casablanca, Maroc",
-  period: "Juin - Juillet 2025",
-  type: "Stage",
-  description: "Développement d’agents IA pour automatiser les processus métier des startups",
-  technologies: ["Python", "LangChain", "Make", "n8n", "GPT-4", "API REST"],
-  achievements: [
-    "Création d'agents conversationnels IA pour la gestion client",
-    "Mise en place de workflows automatisés (facturation, CRM, emailing)",
-    "Intégration d'APIs tierces pour des services SaaS",
-    "Déploiement et test sur cas réels avec des startups locales"
-  ],
-  badge: "AI Automation",
-  color: "from-purple-500 to-indigo-500"
-}
+    }
+    
   ];
 
   return (
