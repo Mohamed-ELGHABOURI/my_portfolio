@@ -72,7 +72,6 @@ const ExperienceSection = () => {
   badge: "AI Automation",
   color: "from-purple-500 to-indigo-500"
 }
-
   ];
 
   return (
