@@ -24,7 +24,7 @@ const ExperienceSection = () => {
     {
       title: "Stage AI & Cyber-Security",
       company: "3D Smart Factory",
-      location: "Casablanca, Maroc",
+      location: "Mohammedia, Maroc",
       period: "Juillet - Août 2024",
       type: "Stage",
       description: "Développement d'un modèle CNN pour la détection de malwares avec une précision de 86%",
@@ -41,7 +41,7 @@ const ExperienceSection = () => {
     {
       title: "Développeur Application MedCab",
       company: "Cabinet Médical",
-      location: "Settat, Maroc", 
+      location: "Safi, Maroc", 
       period: "Avril - Mai 2023",
       type: "Stage",
       description: "Développement d'une application desktop distribuée pour la gestion médicale",

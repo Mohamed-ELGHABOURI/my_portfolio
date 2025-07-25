@@ -5,16 +5,38 @@ import { Award, ExternalLink, Calendar, CheckCircle } from 'lucide-react';
 const CertificationsSection = () => {
   const certifications = [
     {
-      title: "Oracle Certified Foundations Associate",
+      title: "Oracle Cloud Infrastructure 2025 Generative AI Professional",
       issuer: "Oracle",
-      date: "2024",
+      date: "2025",
       type: "Database",
-      description: "Certification fondamentale en bases de données Oracle, couvrant les concepts essentiels et les bonnes pratiques",
+      description: "Certification sur l’IA générative, l’utilisation des services OCI AI et le déploiement de modèles sur Oracle Cloud",
       skills: ["Oracle Database", "SQL", "PL/SQL", "Database Design"],
       badge: "https://images.unsplash.com/photo-1606125682067-21ab7e6b4651?w=100&h=100&fit=crop",
       verified: true,
       color: "from-red-600 to-orange-600"
     },
+    {
+  title: "AI Agents and No/Low-Code Automation",
+  issuer: "AHDigital Automation",
+  date: "2025",
+  type: "Automation & AI",
+  description: "Certification sur la création d'agents IA et l’automatisation de processus métier avec des outils no/low-code comme Make, n8n et LangChain",
+  skills: ["AI Agents", "No-Code", "Make", "n8n", "LangChain", "API Integration"],
+  badge: "https://images.unsplash.com/photo-1581091012184-5c8c6c2baf99?w=100&h=100&fit=crop",
+  verified: true,
+  color: "from-purple-600 to-indigo-600"
+}, {
+      title: "Infrastructure Cloud Oracle 2024",
+      issuer: "Oracle",
+      date: "2024",
+      type: "Cloud",
+      description: "Certification sur l'infrastructure cloud Oracle, services cloud et déploiement d'applications",
+      skills: ["Oracle Cloud", "Cloud Infrastructure", "DevOps", "Microservices"],
+      badge: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=100&h=100&fit=crop",
+      verified: true,
+      color: "from-green-600 to-teal-600"
+    }
+,
     {
       title: "CCNA V7 - Network Fundamentals",
       issuer: "Cisco",
@@ -36,18 +58,8 @@ const CertificationsSection = () => {
       badge: "https://images.unsplash.com/photo-1639322537228-f710d846310a?w=100&h=100&fit=crop",
       verified: true,
       color: "from-purple-600 to-pink-600"
-    },
-    {
-      title: "Infrastructure Cloud Oracle 2024",
-      issuer: "Oracle",
-      date: "2024",
-      type: "Cloud",
-      description: "Certification sur l'infrastructure cloud Oracle, services cloud et déploiement d'applications",
-      skills: ["Oracle Cloud", "Cloud Infrastructure", "DevOps", "Microservices"],
-      badge: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=100&h=100&fit=crop",
-      verified: true,
-      color: "from-green-600 to-teal-600"
     }
+   
   ];
 
   return (
