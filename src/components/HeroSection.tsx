@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { Mail, Phone, ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
+//import me from '../assets/me.jpg'
+import est from '../assets/est.png'
 const HeroSection = () => {
   const [displayText, setDisplayText] = useState('');
   const fullText = 'Développeur Full-Stack';
@@ -29,7 +30,7 @@ const HeroSection = () => {
   return (
 <section className="relative min-h-screen flex items-center justify-center overflow-hidden code-bg pt-20">
   {/* Background Image with Low Opacity */}
-  <div className="absolute inset-0 z-0" style={{ backgroundImage: 'url("./est.png")', backgroundRepeat: 'repeat', opacity: 0.30 }}>
+  <div className="absolute inset-0 z-0" style={{ backgroundImage: 'url({est})', backgroundRepeat: 'repeat', opacity: 0.30 }}>
     <div className="absolute inset-0 bg-black/50"></div>
   </div>
 
@@ -58,7 +59,7 @@ const HeroSection = () => {
       <div className="flex justify-center lg:justify-center">
         <div className="relative">
           <img
-            src="./me.jpg"
+          src={`${import.meta.env.BASE_URL}me.jpg`} 
             alt="Mohamed ELGHABOURI - Profile Picture"
             className="w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-2xl bg-gradient-to-r from-tech-primary to-tech-purple p-2 animate-glow shadow-2xl object-cover"
           />
