@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Mail, Phone, ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import me from '../assets/me.jpg'
+//import me from '../assets/me.jpg'
 //import est from '../assets/est.png'
 const HeroSection = () => {
   const [displayText, setDisplayText] = useState('');
@@ -59,7 +59,7 @@ const HeroSection = () => {
       <div className="flex justify-center lg:justify-center">
         <div className="relative">
           <img
-          src={me} 
+            src="/assets/me.jpg"
             alt="Mohamed ELGHABOURI - Profile Picture"
             className="w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-2xl bg-gradient-to-r from-tech-primary to-tech-purple p-2 animate-glow shadow-2xl object-cover"
           />
