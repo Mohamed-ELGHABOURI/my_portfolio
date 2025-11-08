@@ -30,7 +30,7 @@ const HeroSection = () => {
   return (
 <section className="relative min-h-screen flex items-center justify-center overflow-hidden code-bg pt-20">
   {/* Background Image with Low Opacity */}
-  <div className="absolute inset-0 z-0" style={{ backgroundImage: 'url({est})', backgroundRepeat: 'repeat', opacity: 0.30 }}>
+  <div className="absolute inset-0 z-0" style={{ backgroundImage: 'url(${import.meta.env.BASE_URL}assets/est.png)', backgroundRepeat: 'repeat', opacity: 0.30 }}>
     <div className="absolute inset-0 bg-black/50"></div>
   </div>
 
