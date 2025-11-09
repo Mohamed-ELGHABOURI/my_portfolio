@@ -5,6 +5,17 @@ import { Award, ExternalLink, Calendar, CheckCircle } from 'lucide-react';
 const CertificationsSection = () => {
   const certifications = [
     {
+      title: "Oracle Java SE 21 Certification Professional",
+      issuer: "Oracle",
+      date: "2025",
+      type: "Programming Language",
+      description: "Certification en Java SE 21, couvrant les bases de la programmation Java, la gestion des applications, et l’optimisation des performances avec la dernière version de Java.",
+      skills: ["Java SE", "Object-Oriented Programming", "Java APIs", "Concurrency", "JVM Tuning"],
+      badge: "https://images.unsplash.com/photo-1606125682067-21ab7e6b4651?w=100&h=100&fit=crop",
+      verified: true,
+      color: "from-blue-600 to-indigo-600"
+    },
+    {
       title: "Oracle Cloud Infrastructure 2025 Generative AI Professional",
       issuer: "Oracle",
       date: "2025",
@@ -154,9 +165,9 @@ const CertificationsSection = () => {
         {/* Certification Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { number: "4", label: "Certifications", icon: "🏆" },
+            { number: "6", label: "Certifications", icon: "🏆" },
             { number: "3", label: "Organismes", icon: "🏢" },
-            { number: "2024", label: "Dernière Cert.", icon: "📅" },
+            { number: "2025", label: "Dernière Cert.", icon: "📅" },
             { number: "100%", label: "Vérifiées", icon: "✅" }
           ].map((stat, index) => (
             <div key={index} className="text-center p-6 tech-card group">
