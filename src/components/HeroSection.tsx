@@ -88,8 +88,8 @@ const HeroSection = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-slate-300 max-w-2xl lg:max-w-none leading-relaxed">
-            Étudiant Ingénieur passionné par le développement Full-Stack, 
-            spécialisé en IA et Cybersécurité
+            Étudiant Ingénieur spécialisé en développement logiciel et ingénierie logicielle,
+            avec une passion pour l'IA et le Cloud.
           </p>
 
           {/* Location */}
