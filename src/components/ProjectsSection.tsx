@@ -7,6 +7,7 @@ const ProjectsSection = () => {
   const [activeFilter, setActiveFilter] = useState('all');
 
   const projects = [
+    
     {
       title: "KooraZone",
       type: "mobile",
@@ -74,6 +75,74 @@ const ProjectsSection = () => {
       category: "E-commerce",
       status: "Terminé",
       icon: ShoppingCart
+    },
+    {
+      title: "Sentiment Analysis Web App",
+      type: "Deep learning",
+      description: "Développement d'une application d'analyse de sentiment en full-stack avec FastAPI (backend) et Streamlit (frontend), déployée via Docker.",
+      technologies: ["FastAPI", "Streamlit", "Docker", "Hugging Face", "Python"],
+      features: [
+        "Analyse de sentiment en temps réel",
+        "Interface utilisateur intuitive avec Streamlit",
+        "Integration avec l'API Hugging Face",
+        "Déploiement containerisé avec Docker",
+        "Architecture full-stack moderne"
+      ],
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      category: "Deep Learning",
+      status: "Terminé",
+      icon: Monitor
+    },
+    {
+      title: "Multi-Agent AI Research System",
+      type: "Deep learning",
+      description: "Système multi-agent d'IA conçu pour optimiser et améliorer le processus de recherche, composé de trois agents spécialisés: Research Agent, Review Agent, et Synthesis Agent.",
+      technologies: ["Python", "LangChain", "arXiv API", "NLP", "Vector DB"],
+      features: [
+        "Recherche automatisée dans les bases académiques",
+        "Évaluation critique des résultats",
+        "Synthèse automatique des informations",
+        "Support PDF et entrée texte",
+        "Workflow de recherche accéléré"
+      ],
+      image: "https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=800&h=600&fit=crop",
+      category: "Deep Learning",
+      status: "Terminé",
+      icon: Monitor
+    },
+    {
+      title: "Classification de texte GNN",
+      type: "Deep learning",
+      description: "Optimisation d'un modèle Graph Convolutional Network (GCN) pour la classification de texte, avec amélioration significative de la précision grâce à l'enrichissement des données.",
+      technologies: ["PyTorch Geometric", "GCN", "NLP", "Python", "Scikit-learn"],
+      features: [
+        "Amélioration de la précision de 76% à 96%",
+        "Enrichissement des données textuelles",
+        "Optimisation des hyperparamètres",
+        "Architecture GNN personnalisée",
+        "Validation croisée rigoureuse"
+      ],
+      image: "https://images.unsplash.com/photo-1669023414162-8b0573b9c6b2?w=800&h=600&fit=crop",
+      category: "Deep Learning",
+      status: "Terminé",
+      icon: Monitor
+    },
+    {
+      title: "Agent BDI - Monde de Wumpus",
+      type: "Deep learning",
+      description: "Implémentation d'un agent BDI (Belief-Desire-Intention) dans la plateforme GAMA pour résoudre le monde de Wumpus, démontrant l'intelligence artificielle appliquée.",
+      technologies: ["GAMA Platform", "GAML", "BDI Architecture", "Agent-based Modeling"],
+      features: [
+        "Modélisation des croyances, désirs et intentions",
+        "Système de règles réactives",
+        "Plans d'action dynamiques",
+        "Évitement intelligent des dangers",
+        "Navigation autonome"
+      ],
+      image: "https://images.unsplash.com/photo-1675557009875-439e7e659c8a?w=800&h=600&fit=crop",
+      category: "Deep Learning",
+      status: "Terminé",
+      icon: Monitor
     },
     {
   title: "Sécurité des systémes d'information",
