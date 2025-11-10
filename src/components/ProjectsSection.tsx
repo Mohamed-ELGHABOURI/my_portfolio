@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { ExternalLink, Github, Smartphone, Globe, Monitor, ShoppingCart } from 'lucide-react';
+import { ExternalLink, Github, Smartphone, Globe, Monitor, ShoppingCart, Server } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const ProjectsSection = () => {
@@ -74,7 +74,25 @@ const ProjectsSection = () => {
       category: "E-commerce",
       status: "Terminé",
       icon: ShoppingCart
-    }
+    },
+    {
+  title: "Sécurité des systémes d'information",
+  type: "Réseaux",
+  description: "Conception et déploiement d’un backbone MPLS L3 VPN avec tunnels IPsec site-à-site, intégrant l’administration de services systèmes (AD DS, DNS/DHCP) et la supervision. Janvier 2023 – Avril 2023.",
+  technologies: ["Cisco IOS/IOS-XE", "GNS3/EVE-NG", "MPLS L3VPN", "VRF", "BGP", "OSPF", "IPsec", "pfSense", "Windows Server (AD DS, DNS, DHCP)", "Ubuntu Server", "Ansible", "Zabbix/SNMP"],
+  features: [
+    "Backbone MPLS L3 VPN multi-clients (VRF) avec routage BGP/OSPF",
+    "Tunnels IPsec site-à-site pour sécuriser les interconnexions",
+    "Segmentation et politiques de sécurité entre VRF",
+    "Services systèmes : AD DS, DNS/DHCP et GPO de base",
+    "Supervision réseau via SNMP/Zabbix (alerting & dashboards)",
+    "Automatisation de configurations (playbooks Ansible)"
+  ],
+  image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
+  category: "Network and System administration",
+  status: "Terminé",
+  icon: Server
+}
   ];
 
   const filters = [
