@@ -45,25 +45,22 @@ const AboutSection = () => {
                 <h3 className="text-2xl font-bold text-white mb-4">Mon Histoire</h3>
                 <div className="space-y-4 text-slate-300 leading-relaxed">
                   <p>
-                    Passionné par le développement depuis mon enfance, j'ai transformé 
-                    ma curiosité naturelle pour la technologie en une véritable expertise 
-                    technique. Aujourd'hui étudiant ingénieur en 2ème année à la FST Settat, 
-                    je me spécialise dans le développement Full-Stack avec un focus particulier 
-                    sur l'Intelligence Artificielle et la Cybersécurité.
-                  </p>
-                  
-                  <p>
-                    Mon parcours m'a mené à travers différentes technologies et méthodologies, 
-                    des applications desktop aux solutions web modernes, en passant par le 
-                    développement mobile et l'IA. Chaque projet est pour moi une opportunité 
-                    d'apprendre, d'innover et de repousser mes limites.
+                    Je suis étudiant en dernière année du cycle ingénieur en Génie Logiciel,
+                    spécialisé en conception et développement logiciel. Mon parcours est
+                    soutenu par plusieurs certifications qui attestent de mon intérêt et de
+                    ma pratique en Intelligence Artificielle et Cloud.
                   </p>
 
                   <p>
-                    Ce qui me motive le plus ? La capacité du code à résoudre des problèmes 
-                    concrets et à créer des solutions qui impactent positivement la vie des 
-                    utilisateurs. Je crois fermement que la technologie doit être au service 
-                    de l'humain.
+                    J'ai développé des applications desktop, web et mobiles, ainsi que des
+                    solutions IA de bout en bout — de la conception d'architecture à la mise
+                    en production.
+                  </p>
+
+                  <p>
+                    Actuellement à la recherche d'un stage PFE, je souhaite rejoindre une
+                    équipe technique pour contribuer à un projet ambitieux. J'apporte
+                    rigueur, autonomie et une forte capacité d'apprentissage ; 
                   </p>
                 </div>
               </div>
