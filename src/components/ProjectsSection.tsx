@@ -101,7 +101,7 @@ const ProjectsSection = () => {
     { id: 'web', label: 'Web' },
     { id: 'desktop', label: 'Desktop' },
     { id: 'Deep learning', label: 'Deep learning' },
-    { id: 'Network and System administration', label: 'Network and System administration' }
+    { id: 'Réseaux', label: 'Réseaux' }
   ];
 
   const filteredProjects = activeFilter === 'all' 
