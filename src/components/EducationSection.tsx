@@ -10,7 +10,7 @@ const EducationSection = () => {
       location: "Settat, Maroc",
       period: "2023 - Présent",
       status: "En cours",
-      description: "Spécialisation en développement logiciel, IA et cybersécurité",
+      description: "Spécialisation en développement et qualité logiciel, IA et Cloud",
       color: "from-tech-primary to-tech-purple"
     },
     {
@@ -19,7 +19,7 @@ const EducationSection = () => {
       location: "Safi, Maroc", 
       period: "2021 - 2023",
       status: "Diplômé",
-      description: "Administration systèmes et réseaux • Mention Bien",
+      description: "Administration systèmes et réseaux • Mention Trés Bien",
       color: "from-blue-500 to-purple-500"
     },
     {
@@ -119,7 +119,7 @@ const EducationSection = () => {
         {/* Achievement Stats */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center p-6 tech-card">
-            <div className="text-3xl font-bold gradient-text mb-2">3+</div>
+            <div className="text-3xl font-bold gradient-text mb-2">5</div>
             <div className="text-slate-300">Années d'Études Supérieures</div>
           </div>
           
@@ -129,7 +129,7 @@ const EducationSection = () => {
           </div>
           
           <div className="text-center p-6 tech-card">
-            <div className="text-3xl font-bold gradient-text mb-2">4</div>
+            <div className="text-3xl font-bold gradient-text mb-2">8</div>
             <div className="text-slate-300">Certifications Professionnelles</div>
           </div>
         </div>

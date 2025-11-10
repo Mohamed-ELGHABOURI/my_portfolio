@@ -39,7 +39,7 @@ const ExperienceSection = () => {
       color: "from-red-500 to-orange-500"
     },
     {
-      title: "Développeur Application MedCab",
+      title: "Développeur d'Application Bureau",
       company: "Cabinet Médical",
       location: "Safi, Maroc", 
       period: "Avril - Mai 2023",
@@ -173,7 +173,7 @@ const ExperienceSection = () => {
         {/* Summary Stats */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-4 gap-6">
           {[
-            { number: "3", label: "Stages Réalisés", icon: "🎯" },
+            { number: "4", label: "Stages Réalisés", icon: "🎯" },
             { number: "86%", label: "Précision IA", icon: "🧠" },
             { number: "15+", label: "Technologies", icon: "⚡" },
             { number: "100%", label: "Projets Livrés", icon: "✅" }

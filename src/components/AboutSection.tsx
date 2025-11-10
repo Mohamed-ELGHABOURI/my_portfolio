@@ -68,8 +68,8 @@ const AboutSection = () => {
 
             <div className="bg-gradient-to-r from-tech-primary/10 to-tech-purple/10 rounded-xl p-6 border border-tech-primary/20">
               <h4 className="text-xl font-semibold text-white mb-2">Étudiant Ingénieur</h4>
-              <p className="text-tech-primary font-medium">2ème année FST Settat</p>
-              <p className="text-slate-300 mt-2">Génie Informatique • Spécialisation IA & Cybersécurité</p>
+              <p className="text-tech-primary font-medium">5ème année FST Settat</p>
+              <p className="text-slate-300 mt-2">Génie Logiciel • Spécialisation Développement full-stack</p>
             </div>
           </div>
 
@@ -96,10 +96,10 @@ const AboutSection = () => {
         {/* Stats Section */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: "3+", label: "Années d'Expérience" },
+           
             { number: "10+", label: "Projets Réalisés" },
             { number: "5+", label: "Technologies Maîtrisées" },
-            { number: "4", label: "Certifications" }
+            { number: "8", label: "Certifications" }
           ].map((stat, index) => (
             <div key={index} className="text-center group">
               <div className="text-3xl md:text-4xl font-bold gradient-text mb-2 group-hover:scale-110 transition-transform duration-300">

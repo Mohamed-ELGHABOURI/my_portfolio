@@ -303,7 +303,7 @@ const ProjectsSection = () => {
         {/* Project Stats */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { number: "4+", label: "Projets Terminés" },
+            { number: "9+", label: "Projets Terminés" },
             { number: "10+", label: "Technologies" },
             { number: "100%", label: "Taux de Réussite" },
             { number: "3", label: "Domaines" }
